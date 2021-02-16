@@ -1,0 +1,482 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kiboo WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-06 01:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: backend/categories_list.php:9 backend/orders_list.php:9
+#: backend/users_list.php:9 backend/products_list.php:9
+msgid "Kiboo ID"
+msgstr ""
+
+#: backend/products_metabox.php:24
+msgid "<b>eCommerce ID: </b>"
+msgstr ""
+
+#: backend/products_metabox.php:27
+msgid "<b>Kiboo ID: </b>"
+msgstr ""
+
+#: backend/products_metabox.php:30
+msgid "<b>Prices: </b>"
+msgstr ""
+
+#: backend/users_list.php:10
+msgid "Type"
+msgstr ""
+
+#: settings/index.php:16
+msgid "Kiboo WooCommerce Settings"
+msgstr ""
+
+#: settings/index.php:56
+msgid "Integration"
+msgstr ""
+
+#: settings/index.php:60 settings/integration.php:27
+msgid "Log"
+msgstr ""
+
+#: settings/index.php:135
+msgid "Kiboo Settings Saved!"
+msgstr ""
+
+#: settings/integration.php:4
+msgid "Kiboo REST API Authentication"
+msgstr ""
+
+#: settings/integration.php:9
+msgid "URL"
+msgstr ""
+
+#: settings/integration.php:15
+msgid "Client ID"
+msgstr ""
+
+#: settings/integration.php:21
+msgid "Client Secret"
+msgstr ""
+
+#: settings/integration.php:29 settings/integration.php:36
+#: settings/integration.php:43 settings/integration.php:50
+#: settings/integration.php:221
+msgid "Enabled"
+msgstr ""
+
+#: settings/integration.php:30 settings/integration.php:37
+#: settings/integration.php:44 settings/integration.php:51
+#: settings/integration.php:222
+msgid "Disabled"
+msgstr ""
+
+#: settings/integration.php:34
+msgid "Inform New Customer"
+msgstr ""
+
+#: settings/integration.php:41
+msgid "Inform Update Customer"
+msgstr ""
+
+#: settings/integration.php:48
+msgid "Inform New Order"
+msgstr ""
+
+#: settings/integration.php:60
+msgid "WooCommerce REST API Authentication"
+msgstr ""
+
+#: settings/integration.php:65
+msgid "User"
+msgstr ""
+
+#: settings/integration.php:71
+msgid "Password"
+msgstr ""
+
+#: settings/integration.php:82
+msgid "Customers"
+msgstr ""
+
+#: settings/integration.php:87
+msgid "Default Country"
+msgstr ""
+
+#: settings/integration.php:106
+msgid "Default State"
+msgstr ""
+
+#: settings/integration.php:124
+msgid "Default City"
+msgstr ""
+
+#: settings/integration.php:143
+msgid "Default Doc Type"
+msgstr ""
+
+#: settings/integration.php:161
+msgid "Default VAT Type"
+msgstr ""
+
+#: settings/integration.php:179
+msgid "Add First and Last Name on Registration"
+msgstr ""
+
+#: settings/integration.php:181 settings/integration.php:370
+#: settings/general.php:11 settings/general.php:18
+msgid "Yes"
+msgstr ""
+
+#: settings/integration.php:182 settings/integration.php:371
+#: settings/general.php:12 settings/general.php:19
+msgid "No"
+msgstr ""
+
+#: settings/integration.php:191
+msgid "Products"
+msgstr ""
+
+#: settings/integration.php:196
+msgid "Default Price"
+msgstr ""
+
+#: settings/integration.php:219
+msgid "Show prices with VAT"
+msgstr ""
+
+#: settings/integration.php:232 settings/integration.php:243
+msgid "Credit Card"
+msgstr ""
+
+#: settings/integration.php:237
+msgid "Card Plan"
+msgstr ""
+
+#: settings/integration.php:254
+msgid "Orders"
+msgstr ""
+
+#: settings/integration.php:259
+msgid "Send As"
+msgstr ""
+
+#: settings/integration.php:261
+msgid "Customer Note"
+msgstr ""
+
+#: settings/integration.php:262
+msgid "Sale Receipt"
+msgstr ""
+
+#: settings/integration.php:266
+msgid "POS Number"
+msgstr ""
+
+#: settings/integration.php:272
+msgid "Service Channel"
+msgstr ""
+
+#: settings/integration.php:283
+msgid "Products Attributes"
+msgstr ""
+
+#: settings/integration.php:288
+msgid "Brand Attribute"
+msgstr ""
+
+#: settings/integration.php:305
+msgid "Model Attribute"
+msgstr ""
+
+#: settings/integration.php:322
+msgid "Size Attribute"
+msgstr ""
+
+#: settings/integration.php:339
+msgid "Color Attribute"
+msgstr ""
+
+#: settings/integration.php:363
+msgid "Stock"
+msgstr ""
+
+#: settings/integration.php:368
+msgid "Manage Stock"
+msgstr ""
+
+#: settings/integration.php:375
+msgid "Allow Backorder"
+msgstr ""
+
+#: settings/integration.php:380
+msgid "Disallow"
+msgstr ""
+
+#: settings/integration.php:381
+msgid "Allow but Notify"
+msgstr ""
+
+#: settings/integration.php:382
+msgid "Allow"
+msgstr ""
+
+#: settings/integration.php:402 settings/general.php:28
+msgid "Save"
+msgstr ""
+
+#: settings/general.php:4
+msgid "Customize WordPress"
+msgstr ""
+
+#: settings/general.php:9
+msgid "Show Admin Bar"
+msgstr ""
+
+#: settings/general.php:16
+msgid "Custom Login"
+msgstr ""
+
+#: settings/tools.php:4
+msgid "Import / Export Settings"
+msgstr ""
+
+#: settings/tools.php:9
+msgid "Settings"
+msgstr ""
+
+#: settings/tools.php:20
+msgid "Overwrite Settings"
+msgstr ""
+
+#: settings/log.php:7
+msgid "ID"
+msgstr ""
+
+#: settings/log.php:8
+msgid "Date"
+msgstr ""
+
+#: settings/log.php:9
+msgid "Event"
+msgstr ""
+
+#: settings/log.php:10
+msgid "Body"
+msgstr ""
+
+#: settings/log.php:11
+msgid "Response"
+msgstr ""
+
+#: features/order_checkout.php:37
+msgid "Invoice Type"
+msgstr ""
+
+#: features/order_checkout.php:47 features/customer_registration.php:89
+msgid "VAT Type"
+msgstr ""
+
+#: features/order_checkout.php:57
+msgid "Company Name"
+msgstr ""
+
+#: features/order_checkout.php:65 features/customer_registration.php:56
+msgid "Doc Type"
+msgstr ""
+
+#: features/order_checkout.php:75 features/customer_registration.php:71
+msgid "Doc Number"
+msgstr ""
+
+#: features/order_checkout.php:83 features/customer_registration.php:81
+msgid "Phone"
+msgstr ""
+
+#: features/order_checkout.php:91 features/customer_registration.php:76
+msgid "Birth Date"
+msgstr ""
+
+#: features/order_checkout.php:146 features/customer_registration.php:105
+msgid "Address"
+msgstr ""
+
+#: features/order_checkout.php:154 features/customer_registration.php:113
+msgid "Number"
+msgstr ""
+
+#: features/order_checkout.php:162 features/customer_registration.php:119
+msgid "Apartment"
+msgstr ""
+
+#: features/order_checkout.php:170 features/customer_registration.php:127
+msgid "Neighborhood"
+msgstr ""
+
+#: features/order_checkout.php:178 features/customer_registration.php:133
+msgid "ZIP Code"
+msgstr ""
+
+#: features/customer_registration.php:42
+msgid "Name"
+msgstr ""
+
+#: features/customer_registration.php:48
+msgid "Last Name"
+msgstr ""
+
+#: features/customer_registration.php:141
+msgid "State"
+msgstr ""
+
+#: features/customer_registration.php:156
+msgid "City"
+msgstr ""
+
+#: features/customer_registration.php:183
+msgid "Doc Type is required!."
+msgstr ""
+
+#: features/customer_registration.php:187
+msgid "Doc Number is required!"
+msgstr ""
+
+#: features/customer_registration.php:195
+msgid "Phone is required!"
+msgstr ""
+
+#: features/customer_registration.php:199
+msgid "VAT Type is required!"
+msgstr ""
+
+#: features/customer_registration.php:203
+msgid "Address is required!"
+msgstr ""
+
+#: features/customer_registration.php:207
+msgid "Number is required!"
+msgstr ""
+
+#: features/customer_registration.php:219
+msgid "ZIP Code is required!"
+msgstr ""
+
+#: features/customer_registration.php:223
+msgid "State is required!"
+msgstr ""
+
+#: features/customer_registration.php:227
+msgid "City is required!"
+msgstr ""
+
+#: features/api/api_products.php:70
+msgid "Empty Kiboo ID"
+msgstr ""
+
+#: features/api/api_products.php:99
+msgid "Error Creating Product"
+msgstr ""
+
+#: features/api/api_products.php:180 features/api/api_prices.php:34
+#: features/api/api_prices.php:54 features/api/api_images.php:31
+#: features/api/api_stock.php:31 features/api/api_stock.php:48
+msgid "Product not found"
+msgstr ""
+
+#: features/api/api_attributes.php:29 features/api/api_attributes.php:102
+msgid "Attribute name not found"
+msgstr ""
+
+#: features/api/api_attributes.php:44
+msgid "Attribute IDs mismatch"
+msgstr ""
+
+#: features/api/api_attributes.php:48
+msgid "Attribute not found"
+msgstr ""
+
+#: features/api/api_attributes.php:110
+msgid "Term not found"
+msgstr ""
+
+#: features/api/api_models.php:44
+msgid "Model IDs mismatch"
+msgstr ""
+
+#: features/api/api_models.php:48 features/api/api_models.php:107
+msgid "Model not found"
+msgstr ""
+
+#: features/api/api_current_accounts_movements.php:35
+msgid "Current Account Movement creation error"
+msgstr ""
+
+#: features/api/api_current_accounts_movements.php:38
+#: features/api/api_current_accounts_movements.php:135
+#: features/api/api_current_accounts.php:38
+#: features/api/api_current_accounts.php:126 features/api/api_customers.php:36
+#: features/api/api_customers.php:79 features/api/api_customers.php:179
+msgid "Customer not found"
+msgstr ""
+
+#: features/api/api_current_accounts_movements.php:138
+msgid "Current Account Movement not found"
+msgstr ""
+
+#: features/api/api_current_accounts.php:35
+msgid "Current Account creation error"
+msgstr ""
+
+#: features/api/api_current_accounts.php:129
+msgid "Current Account not found"
+msgstr ""
+
+#: features/api/api_customers.php:76
+msgid "Customer IDs mismatch"
+msgstr ""
+
+#: features/api/api_categories.php:36 features/api/api_brands.php:44
+msgid "Category IDs mismatch"
+msgstr ""
+
+#: features/api/api_categories.php:40 features/api/api_categories.php:117
+#: features/api/api_brands.php:48
+msgid "Category not found"
+msgstr ""
+
+#: features/api/api_categories.php:71
+msgid "Category parent not found"
+msgstr ""
+
+#: features/api/api_brands.php:107
+msgid "Brand not found"
+msgstr ""
+
+#. Name of the plugin
+msgid "Kiboo WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Kiboo and WooCommerce integration"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://clarikagroup.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Agustin Fiori"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://drcrow.github.io/resume/"
+msgstr ""

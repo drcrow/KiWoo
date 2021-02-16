@@ -1,0 +1,76 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kiboo WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-10 12:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.1; wp-5.4.2"
+
+#. Author of the plugin
+msgid "Agustin Fiori"
+msgstr ""
+
+#: settings/stock.php:9
+msgid "Enable"
+msgstr ""
+
+#: settings/index.php:25
+msgid "General"
+msgstr ""
+
+#: settings/index.php:21
+msgid "Home"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://clarikagroup.com/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://drcrow.github.io/resume/"
+msgstr ""
+
+#: settings/general.php:15
+msgid "Key"
+msgstr ""
+
+#. Description of the plugin
+msgid "Kiboo and WooCommerce integration"
+msgstr ""
+
+#: settings/general.php:4
+msgid "Kiboo Service"
+msgstr ""
+
+#. Name of the plugin
+msgid "Kiboo WooCommerce"
+msgstr ""
+
+#: settings/stock.php:4
+msgid "Real-Time Stock Validation"
+msgstr ""
+
+#: settings/stock.php:20 settings/general.php:26
+msgid "Save"
+msgstr ""
+
+#: settings/index.php:29
+msgid "Stock"
+msgstr ""
+
+#: settings/index.php:33
+msgid "Support"
+msgstr ""
+
+#: settings/general.php:9
+msgid "URL"
+msgstr ""

@@ -1,0 +1,74 @@
+<?php
+/**
+ * Product Price relative to User's "kiboo_price_type" meta
+ */
+
+// PRODUCT SIMPLE
+add_filter('woocommerce_product_get_price', 'kibooGetCustomPrice', 10, 2 );
+add_filter('woocommerce_product_get_regular_price', 'kibooGetCustomRegularPrice', 10, 2 );
+
+// PRODUCT VARIATION
+add_filter('woocommerce_product_variation_get_price', 'kibooGetCustomPrice', 10, 2 );
+add_filter('woocommerce_product_variation_get_regular_price', 'kibooGetCustomRegularPrice', 10, 2 );
+
+// HTML PRICE
+add_filter( 'woocommerce_get_price_html', 'kibooGetCustomHTMLPrice', 20, 2);
+
+
+function kibooGetCustomPrice( $price, $product ) {
+
+    if( $product->is_on_sale() ) {
+        return $product->get_sale_price();
+    }
+
+    return kibooGetCustomRegularPrice( $price, $product );
+}
+
+function kibooGetCustomRegularPrice( $price, $product ) {
+    $priceType  = kibooGetCurrentUserPriceType();
+
+    $prices     = kibooGetProductPrices($product->get_id());
+
+    if(@$prices[$priceType] > 0){
+        $price = $prices[$priceType];
+    }
+
+    return $price;
+}
+
+function kibooGetCustomHTMLPrice( $price, $product ) {
+
+    $productType = $product->get_type();
+
+    if($productType == 'variable') {
+
+        $variations = $product->get_children();
+        $allPrices     = array();
+
+        foreach($variations as $varID){
+            $product = wc_get_product( $varID );
+            $allPrices[] = $product->get_regular_price();
+
+        }
+
+        $min_price = min($allPrices);
+        $max_price = max($allPrices);
+
+        if ( $min_price !== $max_price ) {
+            $price = apply_filters('woocommerce_variable_price_html', wc_format_price_range($min_price, $max_price).$product->get_price_suffix(), $product);
+        } else {
+            $price = apply_filters('woocommerce_variable_price_html', wc_price( $min_price ) . $product->get_price_suffix(), $product );
+        }
+
+
+    }
+
+    return $price;
+}
+
+function kibooGetChildrenPrices($parentID){
+
+}
+
+//https://stackoverflow.com/questions/45806249/change-product-prices-via-a-hook-in-woocommerce-3/45807054#45807054
+?>

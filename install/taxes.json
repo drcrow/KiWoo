@@ -1,0 +1,17 @@
+[
+	{
+		"class": "kiboo_iva_standard",
+		"rate": "21.0000",
+		"name": "IVA 21"
+	},
+	{
+		"class": "kiboo_iva_reduced",
+		"rate": "10.5000",
+		"name": "IVA 10.5"
+	},
+	{
+		"class": "kiboo_iva_zero",
+		"rate": "0.0000",
+		"name": "IVA 0"
+	}
+]
